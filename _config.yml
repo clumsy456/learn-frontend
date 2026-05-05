@@ -12,31 +12,6 @@ collections:
   lessons:
     output: true
     permalink: /lessons/:name/
-    order:
-      - day01-html5.md
-      - day02-css-selector-box-model.md
-      - day03-flexbox.md
-      - day04-css-grid.md
-      - day05-responsive-design.md
-      - day06-css-animation-project.md
-      - day07-javascript-basics-types.md
-      - day08-function-scope-closure.md
-      - day09-prototype-oop.md
-      - day10-async-promise.md
-      - day11-dom-events.md
-      - day12-es-modules-webapi.md
-      - day13-react-jsx.md
-      - day14-react-advanced.md
-      - day15-react-router-state.md
-      - day16-vue3.md
-      - day17-engineering-vite.md
-      - day18-css-tools-components.md
-      - day19-performance.md
-      - day20-testing.md
-      - day21-nextjs-ssr.md
-      - day22-fullstack.md
-      - day23-deploy-devops.md
-      - day24-final-project.md
 
 header_pages:
   - index.md
