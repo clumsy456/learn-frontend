@@ -10,6 +10,6 @@ title: 前端学习计划
 ## 📋 课程目录
 
 {% for lesson in site.lessons %}
-### [{{ lesson.title }}]({{ lesson.url }})
+### [{{ lesson.title }}]({{ lesson.url | relative_url }})
 {% if lesson.categories %}> {{ lesson.categories | join: ' · ' }}{% endif %}
 {% endfor %}
