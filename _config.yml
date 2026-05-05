@@ -43,8 +43,6 @@ header_pages:
   - _pages/overview.md
 
 exclude:
-  - frontend-learning-plan/
-  - frontend-learning-plan.md
   - README.md
 
 plugins:
