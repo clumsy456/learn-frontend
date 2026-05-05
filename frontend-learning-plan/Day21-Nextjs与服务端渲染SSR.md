@@ -86,5 +86,3 @@ export async function POST(request: Request) {
 // 服务端组件 ≈ Go 的模板渲染
 // 客户端组件 ≈ Go 返回的 JS，浏览器执行
 ```
-
----

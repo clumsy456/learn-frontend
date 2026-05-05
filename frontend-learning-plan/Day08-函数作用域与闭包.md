@@ -209,5 +209,3 @@ boundGreet('Hey'); // "Hey, Charlie"
 1. **实现一个 EventEmitter**：支持 `on`、`off`、`emit`、`once` 方法
 2. **实现 curry 函数**：`curry(add)(1)(2)` → `3`
 3. **实现 compose 函数**：`compose(fn1, fn2, fn3)(x)` → `fn1(fn2(fn3(x)))`
-
----

@@ -138,5 +138,3 @@ function VirtualList({ items }) {
 1. **用 React DevTools Profiler 分析组件渲染性能**：找出不必要的重新渲染
 2. **实现一个虚拟滚动列表**：渲染 10000 条数据，保持 60fps
 3. **用 Lighthouse 审计你的博客项目**：优化到 90+ 分
-
----

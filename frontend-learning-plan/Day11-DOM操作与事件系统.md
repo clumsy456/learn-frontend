@@ -145,5 +145,3 @@ document.querySelectorAll('.animate-on-scroll').forEach(el => {
 1. **实现一个自定义下拉菜单**：点击展开/收起，点击外部关闭（用事件委托 + closest）
 2. **实现图片懒加载**：用 IntersectionObserver，图片进入视口时才加载
 3. **实现一个简单的 TODO 应用**：纯 DOM 操作，支持增删改查、过滤、本地存储
-
----

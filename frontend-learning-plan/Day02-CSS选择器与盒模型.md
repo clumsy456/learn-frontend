@@ -153,5 +153,3 @@ width: clamp(200px, 50%, 800px); /* 夹紧在 200px-800px 之间 */
 1. **盒模型计算题**：给定一个 `border-box` 的 div，width=300px，padding=20px，border=2px，问内容区宽度是多少？（答案：256px）
 2. **用 CSS 变量做一个主题切换**：定义 `--bg-color`、`--text-color` 等变量，通过 JS 切换 `:root` 上的变量值实现暗色/亮色主题
 3. **选择器挑战**：用最少的 CSS 规则样式化一个复杂的嵌套列表
-
----

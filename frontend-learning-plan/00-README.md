@@ -6,14 +6,16 @@
 
 ---
 
-## 📋 目录
+## 📋 总览
 
-- [前置准备](#前置准备)
-- [第一周：HTML/CSS 基础与页面构建](#第一周htmlcss-基础与页面构建)
-- [第二周：JavaScript 深度精讲](#第二周javascript-深度精讲)
-- [第三周：现代前端框架与工程化](#第三周现代前端框架与工程化)
-- [第四周：进阶实战与全栈打通](#第四周进阶实战与全栈打通)
-- [附录：学习资源汇总](#附录学习资源汇总)
+| 周次 | 主题 | 核心内容 |
+|------|------|----------|
+| **第一周** | HTML/CSS 基础与页面构建 | 语义化标签、盒模型、Flexbox、Grid、响应式设计、CSS 动画 |
+| **第二周** | JavaScript 深度精讲 | 类型系统、闭包、原型链、Promise/async-await、事件循环、DOM 操作、ES Modules |
+| **第三周** | 现代前端框架与工程化 | React 核心概念、Hooks、Router、状态管理、Vue 3 概览、Vite、TypeScript、Tailwind CSS |
+| **第四周** | 进阶实战与全栈打通 | 性能优化、测试、Next.js SSR、前后端联调、部署 DevOps、全栈项目 |
+
+> 📖 每日详细内容请查看 [每日任务索引](INDEX.md)
 
 ---
 
@@ -55,9 +57,55 @@
 
 ---
 
-## 第一周：HTML/CSS 基础与页面构建
+## 学习资源汇总
 
-> **本周目标**：掌握 HTML5 语义化标签、CSS3 核心特性、Flex/Grid 布局、响应式设计，能独立还原设计稿
-> **后端类比**：HTML ≈ 数据结构定义，CSS ≈ 数据展示层，浏览器 ≈ 渲染引擎
+### 必读文档（按优先级）
+
+| 资源 | 说明 | 优先级 |
+|------|------|--------|
+| [MDN Web Docs](https://developer.mozilla.org/) | 前端权威文档 | ★★★★★ |
+| [React 官方文档](https://react.dev/) | React 新版文档（超好） | ★★★★★ |
+| [TypeScript Handbook](https://www.typescriptlang.org/docs/) | TS 官方手册 | ★★★★ |
+| [Tailwind CSS 文档](https://tailwindcss.com/docs) | Tailwind 用法 | ★★★★ |
+| [web.dev](https://web.dev/) | Google 性能最佳实践 | ★★★ |
+| [JavaScript.info](https://javascript.info/) | JS 深入教程 | ★★★ |
+
+### 推荐视频/课程
+
+| 资源 | 说明 |
+|------|------|
+| Fireship（YouTube） | 2 分钟速成系列，后端工程师最爱 |
+| Theo - t3.gg（YouTube） | 前端工程化深度内容 |
+| Kent C. Dodds（YouTube） | React 测试权威 |
+| Frontend Masters | 系统课程（付费） |
+| EpicWeb.dev | 全栈 React 课程（付费） |
+
+### 练手项目推荐
+
+1. **个人博客**（SSR/SSG）— 学习 Next.js
+2. **实时聊天应用**（WebSocket）— 学习实时通信
+3. **电商后台管理**（CRUD + 图表）— 学习企业级开发
+4. **Markdown 编辑器**（富文本）— 学习复杂交互
+5. **CLI 工具**（Node.js）— 结合后端经验
+6. **浏览器扩展**（Chrome Extension）— 了解浏览器 API
+
+### 每日学习节奏建议
+
+```
+上午（2-3 小时）：
+  学习新概念 + 阅读文档
+  边看边写代码验证
+
+下午（2-3 小时）：
+  实战练习 / 项目开发
+  遇到问题查文档 / Google
+
+晚上（30 分钟）：
+  复习当天内容
+  写学习笔记
+  看一篇前端相关文章
+```
 
 ---
+
+> **最后的话**：作为后端工程师，你的优势在于理解数据流、API 设计、系统架构。前端的核心难点在于**状态管理**和**用户体验**。不要试图记住所有 API，而是理解核心概念，需要时查文档即可。前端技术更新快，但底层原理不变。掌握原理，你就有了快速学习任何新框架的能力。加油！🚀

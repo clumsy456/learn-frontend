@@ -91,5 +91,3 @@ test('用户登录流程', async ({ page }) => {
 | 单元测试 | Go 的 `go test` | Vitest | 工具函数、纯逻辑 |
 | 组件测试 | Go 的 handler 测试 | Testing Library | 组件交互 |
 | E2E 测试 | Go 的集成测试 | Playwright | 完整用户流程 |
-
----

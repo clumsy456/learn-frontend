@@ -150,5 +150,3 @@ src/
 1. **用 TypeScript 重写第二周的 TODO 应用**：定义完整的类型接口
 2. **配置 ESLint + Prettier**：统一代码风格
 3. **配置路径别名**：用 `@/components/Button` 代替 `../../../components/Button`
-
----

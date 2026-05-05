@@ -171,5 +171,3 @@ users.sort((a, b) => a.age - b.age); // 按年龄升序
 1. **实现一个简易的 ORM**：用 class + 原型链实现 `Model.find()`、`Model.where()`、`Model.first()` 链式调用
 2. **数组方法练习**：用 `reduce` 实现 `map`、`filter`、`groupBy`、`uniq`、`flatten`
 3. **深拷贝函数**：实现 `deepClone(obj)`，处理循环引用
-
----

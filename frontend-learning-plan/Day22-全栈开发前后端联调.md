@@ -172,5 +172,3 @@ function useWebSocket(url: string) {
   return { messages, send };
 }
 ```
-
----

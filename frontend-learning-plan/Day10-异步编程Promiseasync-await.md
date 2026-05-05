@@ -196,5 +196,3 @@ async function asyncPool(limit, items, fn) {
 1. **事件循环预测题**：写出 10 道复杂的事件循环输出题并验证答案
 2. **实现一个 async queue**：支持 `enqueue(asyncFn)` 和 `drain()`，按顺序执行
 3. **实现 `Promise.all`、`Promise.race`、`Promise.allSettled`**（不用原生 API）
-
----

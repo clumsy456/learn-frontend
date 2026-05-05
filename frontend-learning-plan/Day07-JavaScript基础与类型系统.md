@@ -157,5 +157,3 @@ highlight`搜索 ${keyword} 的结果`; // keyword 会被 <mark> 包裹
 1. **类型判断函数**：写一个 `deepTypeOf(value)` 函数，能正确区分 `null`、`[]`、`{}`、`Date`、`RegExp` 等
 2. **解构练习**：从 API 返回的嵌套 JSON 中提取特定字段
 3. **对象合并工具**：实现一个 `deepMerge(target, ...sources)` 深合并函数
-
----

@@ -215,5 +215,3 @@ function useClickOutside(ref, handler) {
 1. **实现 `useFetch` Hook**：支持取消请求（AbortController）、缓存、重试
 2. **实现 `useInfiniteScroll` Hook**：用 IntersectionObserver 实现无限滚动
 3. **实现 `useMediaQuery` Hook**：响应式媒体查询
-
----
