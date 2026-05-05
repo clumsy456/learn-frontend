@@ -102,6 +102,7 @@ INP (Interaction to Next Paint) — 交互到下次绘制 < 200ms
 
 **4. 虚拟列表（Virtual List）**
 
+{% raw %}
 ```jsx
 // 当列表有上千条数据时，只渲染可视区域的元素
 import { useVirtualizer } from '@tanstack/react-virtual';
@@ -137,6 +138,7 @@ function VirtualList({ items }) {
   );
 }
 ```
+{% endraw %}
 
 #### 实战练习
 

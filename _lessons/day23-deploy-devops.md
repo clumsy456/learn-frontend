@@ -85,6 +85,7 @@ server {
 
 **4. CI/CD（GitHub Actions）**
 
+{% raw %}
 ```yaml
 # .github/workflows/deploy.yml
 name: Deploy
@@ -119,3 +120,4 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--prod'
 ```
+{% endraw %}
